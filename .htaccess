@@ -1,0 +1,3 @@
+RewriteEngine ON
+RewriteRule (.*) web/$1
+RewriteRule ^.*([a-zA-Z]*\.css)$ web/css/$1 [L]
